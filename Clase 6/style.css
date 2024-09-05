@@ -1,0 +1,32 @@
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px hsl(0, 3%, 56%);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 2px hsl(0, 3%, 56%);
+}
+
+h3{
+    color: yellow;
+}
+
+body{
+    background-color: black;
+}
+
+span{
+    color: red;
+    text-decoration: line-through;
+    justify-content: center;
+}
+
+p{
+    color: gainsboro;
+    text-align: justify;
+}
