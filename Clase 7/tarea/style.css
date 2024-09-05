@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.Empezar {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 180px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 6px;
+    border-style: hidden;
+}
+
+.ingresar{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: black;
+    border-style:solid;
+    border-width: 2px;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+.ML{
+    font-family: "Roboto", sans-serif;
+    width: 200px;
+    height: 350px;
+    border-radius: 6px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.img-ML{
+
+}
+
+.h3-med{
+    font-size: 15;
+    margin-left: 15px;
+}
+.btn-ML{
+    font-size: 12px;
+    background-color: rgb(220, 240, 247);
+    color: blue;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 13px;
+}
