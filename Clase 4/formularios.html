@@ -9,14 +9,42 @@
     <h1>Formularios en HTML</h1>
     <form>
         <label for="nombre">Ingrese su nombre:</label>
-        <input type="text" id="nombre" placeholder="Carlos Dominguez">
-        <input type="password">
-        <input type="number" required>
-        <input type="email">
+        <!-- La etiqueta <label> es una etiqueta que contiene texto, el texto va a tener la instrucción de lo que vamos a hacer en nuestro input. IMPORTANTE: la etiqueta <label for=""> va a contener un atributo llamado "for" y el valor de ese atributo puede ser cualuquiera, el valor de ese atributo tiene que estar conectado a nuestro input a través de un id.  -->
+        <!-- recordá que los id no pueden repetirse de nombre -->
+        <!-- label permite que nuestra página web sea accesible para personas con discapacidades visuales a través del lector de pantalla//Google también puede calificarnos negativamente porque no cumple normas de accesibilidad// ni hablar de realizar páginas goburnamentales, recibiríamos algún tipo de multa-->
+        <!-- Recordá ponerle los labels a los inputs y sincronizarlos correctamente a través del for y el id, luego con CSS hacemos invisible el texto del label -->
+        <input type="text" id="nombre" placeholder="Carlos Dominguez" name="nombre">
+        <!-- placeholder es un atributo que nos deja escribir un texto de fondo en el input para guiar al usuario -->
+        <br>
+        <label for="password">Ingrese su contraseña:</label>
+        <input type="password" minlength="1" maxlength="10" id="password" name="password">
+        <!-- minlenght y maxlenght determina una longitud mmínima y máxima de caracteres  -->
+        <br>
+        <label for="number">Ingrese un número:</label>
+        <input type="number" min="1" max="20" id="number" name="number">
+        <!-- min y max determinan un rango mínimo y máximo de números -->
+        <br>
+        <label for="email">Ingrese un email:</label>      
+        <input type="email" required id="email" name="email">
+        <!-- El required me indica que es requerido completar ese campo para enviar los datos de la página, sirve mucho para que no se envíen campos del formulario vacíos -->
+        <br>
         <input type="submit" value="login">
+        <br>
         <button type="submit" title="asdsasdad">Enviar</button>
-        <input type="date">
-        <input type="file">
+        <!-- Es una buena práctica ponerle a un button: type="submit" para especificarle a otro programador que es un botón de tipo submit-->
+        <br>
+        <button type="button">Clic Aquí</button>
+        <!-- También es necesario especificar que un <button type="button"> sea type=button para avisarle que es un botón genérico y que no redireccione la página como un submit -->
+        <br>
+        <label for="fecha">Ingrese una fecha:</label>
+        <input type="datetime-local" id=fecha name="fecha">
+        <!-- Hay que ponerle name="" a todos los <input>, generalmente se le pone el mismo nombre del id -->
+        <br>
+        <label for="archivo">Seleccione un archivo:</label>
+        <input type="file" id="archivo" name="archivo">
+        <br>
+        <label for="texto">Ingrese texto:</label>
+        <textarea id="texto" name="texto" placeholder="Ingrese texto"></textarea>
         <br>
         <label for="html-conocido">HTML</label>
         <input type="radio" id="html-conocido" name="lenguaje-conocido">
@@ -39,14 +67,14 @@
         <br>
         <label for="javascript-conocido">JAVASCRIPT</label>
         <input type="checkbox" id="javascript-conocido" name="lenguaje-conocido">
-
-
+            <br>
         <label for="pais">Seleccionar un pais</label>
         <select name="pais" id="pais">
         <option value="AR">Argentina</option>
         <option value="FR">Francia</option>
         <option value="BR">Brasil</option>
-        <option value="NULO" selected disabled>No seleccionaado</option>
+        <!-- disabled sirve para no volver a seleccionar lo mismo cuando ya lo seleccionamos -->
+        <option value="NULO" selected disabled>No seleccionado</option>
     </select>
     </form>
 </body>
