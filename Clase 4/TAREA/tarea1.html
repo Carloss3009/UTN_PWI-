@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de formularios</title>
+</head>
+<body>
+    <form>
+        <div>
+            <div class="h1">
+                <h1 class="h1">General Admission Registration</h1>
+            </div>
+            <div>
+                <label for="nombre">Name</label>
+                <input type="text" id="nombre" name="nombre" placeholder="First name">
+                <input type="text" id="nombre" name="nombre" placeholder="Last name">
+            </div>
+                <br>
+                <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="sample@example.com">
+            </div>
+                <br>
+                <br>
+            <div class="genero">
+                <label for="genero">Gender </label>
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label for="gender">Female</label>
+            </div>
+                <br>
+                <br>
+            <div>
+                <label for="number">Phone</label>
+                <input type="tel" id="number">
+            </div>
+                <br>
+                <br>
+            <div>
+                <label for="call">Emergency contact</label>
+                <input type="tel" id="call">
+            </div>
+                <br>
+                <br>
+            <div class="parking">
+                <label class="parking">Do you require parking?</label>
+                <input type="radio" id="yes" name="question" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="question" value="No">
+                <label for="no">No</label>
+            </div>
+                <br>
+                <br>
+            <div class="room_p">
+                <label for="room_p">What is your room preference?</label>
+                <br>
+                <input type="radio" id="single" name="room" value="Single room">
+                <label for="single">Single Room</label>
+                <br>
+                <input type="radio" id="shared" name="room" value="Shared room">
+                <label for="shared">Shared Room</label>
+                <br>
+                <input type="radio" id="nroom" name="room" value="No room">
+                <label for="nroom">No Room Needed</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div class="diet_r">
+                <label for="diet_r">Do you have dietary restrictions?</label>
+                <br>
+                <input type="radio" id="none" name="dietary" value="none">
+                <label for="none">None</label>
+                <br>
+                <input type="radio" id="veg" name="dietary" value="Vegetarian">
+                <label for="veg">Vegetarian</label>
+                <br>
+                <input type="radio" id="gl_a" name="dietary" value="Glutten">
+                <label for="gl_a">Glutten Allergy</label>
+                <br>
+                <input type="radio" id="lac_a" name="dietary" value="Lactose">
+                <label for="lac_a">Lactose Allergy</label>
+                <br>
+                <input type="radio" id="nut_a" name="dietary" value="Nut">
+                <label for="nut_a">Nut Allergy</label>
+                <br>
+                <input type="radio" id="sf_a" name="dietary" value="Shellfish">
+                <label for="sf_a">Shellfish Allergy</label>
+                <br>
+            </div>
+            <br>
+            <div class="act">
+                <label for="act">What activities will you attend?</label>
+                <br>
+                <input type="radio" id="aw_gd" name="activities" value="Awards">
+                <label for="aw_gd">Awards Gala Dinner</label>
+                <br>
+                <input type="radio" id="lunch" name="activities" value="Luncheon">
+                <label for="lunch">Luncheon</label>
+                <br>
+                <input type="radio" id="town_h" name="activities" value="Town Hall">
+                <label for="town_h">Town Hall</label>
+            </div>
+            <br>
+            <div class="title">
+                <label for="title">Do you want to see the list of other attendees and their profiles on the official event app?</label>
+                <br>
+                <input type="radio" name="answer" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="answer" id="no" value="no">
+                <label for="no">No</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
