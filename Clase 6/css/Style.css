@@ -62,7 +62,7 @@ h2{
         tamaño: unidad de medida, 
         tipo: solid, wavy, dashed, dotted, double, 
         ubicacion: overline, line-theough, underline
-    Si pones none, matas el estilo (osea ya no funcionaria)
+    Si pones "none", matas el estilo (osea ya no funcionaria)
     */
     text-align: center;
     /* text-shadow: 
@@ -104,8 +104,6 @@ a{
 .tachado{
     text-decoration: 1px red solid line-through;
 }
-
-
 
 
 
