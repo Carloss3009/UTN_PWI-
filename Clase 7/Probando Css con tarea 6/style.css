@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", system-ui;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: "Oswald", system-ui;
+    font-size: 57px;
+    text-align: center;
+    color: rgb(223, 222, 222);
+}
+
+h2{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: rgb(230, 230, 230);
+}
+
+p{
+    font-size: 16px;
+    color: rgb(189, 189, 189);
+    text-align: justify;
+}
+
+a{
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+    text-shadow: 0 0 3px yellow;
+}
+
+.sombra-texto-gris{
+    text-shadow: 2px 2px 1px rgb(109, 109, 109);
+}
+
+.tachado-rojo{
+    font-size: 17px;
+    text-decoration: line-through;
+    color: red;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.76);
+}
+
+.caja h2{
+    font-size: 18px;
+    color: aquamarine;
+}
+
+.caja .btn-buy{
+    background-color: aquamarine;
+}
+
+.btn-buy{
+    background-color: red;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

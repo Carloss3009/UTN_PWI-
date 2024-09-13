@@ -1,61 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-.Empezar {
-    font-family: "DM Sans", sans-serif;
-    font-size: 14px;
-    color: white;
-    width: 180px;
-    height: 40px;
-    background-color: blueviolet;
-    border-radius: 6px;
-    border-style: hidden;
-}
-
-.ingresar{
-    font-family: "DM Sans", sans-serif;
-    font-size: 14px;
-    background-color: white;
-    width: 100px;
-    height: 40px;
-    border-radius: 6px;
-    border-color: black;
-    border-style:solid;
-    border-width: 2px;
-}
-
 *{
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
     font-family: "Roboto", sans-serif;
 }
-.ML{
-    font-family: "Roboto", sans-serif;
-    width: 200px;
-    height: 350px;
-    border-radius: 6px;
-    border-color: grey;
+
+.btn{
+    background-color: blueviolet;
+    border-radius: 7px;
+    border-style: none;
+    width: 160px;
+    height: 40px;
+}
+
+.btn-letter{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+}
+
+.btn-1{
+    background-color: white;
+    border-radius: 7px;
     border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 45px;
+    margin-top: 40px;
+}
+
+.btn-letter1{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+}
+
+.ml{
+    height: 300px;
+    width: 198px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
     border-width: 1px;
+    border-radius: 7px;
+    margin-top: 15px;
 }
 
-.img-ML{
-
+.ml-letter{
+    font-weight: 400;
+    font-size: 15.5px;
+    margin: 17px 0 0 18px;
 }
 
-.h3-med{
-    font-size: 15;
-    margin-left: 15px;
+.img{
+    width: 110px;
+    margin-left: 43px;
+    margin-top: 20px;
+    cursor: pointer;
 }
-.btn-ML{
+
+.ml-letter1{
+    font-size: 13.5px;
+    margin-left: 28px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.ml-letter2{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.ml-letter2 button{
+    font-weight: 600;
     font-size: 12px;
-    background-color: rgb(220, 240, 247);
-    color: blue;
-    border-style: hidden;
-    border-radius: 5px;
+    letter-spacing: 0.3px;
+    color: #3483fa;
+    background-color: rgb(155, 208, 226) transparent;
+    border-color: transparent;
+    border-style: none;
+    border-radius: 4px;
+    width: 160px;
+    height: 28px;
+    cursor: pointer;
 }
 
-p{
-    font-size: 13px;
+.pointer{
+    cursor: pointer;
 }
