@@ -6,6 +6,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    background-color: #f8f400;
+}
+
 .btn{
     background-color: blueviolet;
     border-radius: 7px;
@@ -40,13 +44,15 @@
 }
 
 .ml{
-    height: 300px;
-    width: 198px;
+    background-color: white;
+    height: 286px;
+    width: 183px;
     border-style: solid;
     border-color: rgb(212, 212, 212);
     border-width: 1px;
     border-radius: 7px;
     margin-top: 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.120);
 }
 
 .ml-letter{
@@ -56,22 +62,22 @@
 }
 
 .img{
-    width: 110px;
-    margin-left: 43px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.ml-letter1{
-    font-size: 13.5px;
-    margin-left: 28px;
+    width: 105px;
+    margin-left: 35px;
     margin-top: 15px;
     cursor: pointer;
 }
 
+.ml-letter1{
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 .ml-letter2{
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 45px;
+    margin-left: 15px;
     
 }
 
@@ -84,8 +90,8 @@
     border-color: transparent;
     border-style: none;
     border-radius: 4px;
-    width: 160px;
-    height: 28px;
+    width: 151px;
+    height: 24px;
     cursor: pointer;
 }
 
