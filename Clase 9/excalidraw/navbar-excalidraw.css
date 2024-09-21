@@ -49,12 +49,12 @@
     font-weight: 700;
 }
 
-.sidebar-option-highlighted 
+/* .sidebar-option-highlighted 
 .sidebar-option-name 
 svg path{
     color: #6965db;
     stroke-width: 2px;
-}
+} */
 
 .sidebar-option-highlighted 
 .sidebar-option-shortcut{
