@@ -71,17 +71,17 @@ null / 0
 'pepe' + 'hola' */
 
 
-NaN + '' + Number('null')
-//proceso interno
-String(NaN) + '' + NaN
-'NaN' + NaN
-'NaN' + String(NaN)
-'NaN' + 'NaN'
-'NaNNaN'
+// NaN + '' + Number('null')
+// //proceso interno
+// String(NaN) + '' + NaN
+// 'NaN' + NaN
+// 'NaN' + String(NaN)
+// 'NaN' + 'NaN'
+// 'NaNNaN'
 
 
-10 / 2 //5
-11 / 2 //5 y uno queda vacio
+// 10 / 2 //5
+// 11 / 2 //5 y uno queda vacio
 
 /* 11 % 2
 
@@ -98,11 +98,17 @@ String(NaN) + '' + NaN
  */
 
 
-7 * NaN + Number('Null')  //Number NaN
+// 7 * NaN + Number('Null') 
+// NaN + 0 == Number NaN
 
-Number(undefined + 0 + '' + "JUAN") //Number NaN
+// Number(undefined + 0 + '' + "JUAN")
 
-Number(Boolean(true)) + 0 //Number 1
+// Number NaN
+
+// Number(Boolean(true)) + 0
+
+// Number 1
+
 
 
 
@@ -172,7 +178,7 @@ false
 
 /* 
 PRECEDENCIA:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND#operator_precedence
-PRIORIDAD:
+
 NOT
 AND
 OR
@@ -222,7 +228,7 @@ UpperCamelCase
 */
 
 var nivel_y_poder = 1000
-var nivel_y_poder = '500'
+var nivel_y_poder = 500
 
 var condicion = nivel_y_poder > 400 && nivel_y_poder < 900
 
