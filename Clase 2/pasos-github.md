@@ -11,7 +11,7 @@ Debemos crear un repo en github:
 *git push -u origin main
 
 Listo, con esto tenemos nuestro repo en github con lo que hayamos subido
-Si estoy actualizando: despues de hacer ctrol + s (obviamente)
+Si estoy actualizando: despues de hacer ctrl + s (obviamente)
 
 *git add .
 *git commit -m 'comentario'

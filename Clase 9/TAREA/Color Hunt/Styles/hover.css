@@ -1,0 +1,35 @@
+.color-box-1:hover span{
+    opacity: 1;
+}
+
+.color-box-1 span:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.color-box-2:hover span{
+    opacity: 1;
+}
+
+.color-box-2 span:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.color-box-3:hover span{
+    opacity: 1;
+}
+
+.color-box-3 span:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.color-box-4:hover span{
+    opacity: 1;
+}
+
+.color-box-4 span:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-box button:hover{
+    background-color: rgba(0, 0, 0, 0.025);
+}

@@ -1,0 +1,10 @@
+:root{
+    --hostinger-primary-color: #673de6;
+    --bg-primary-color: #1f1346;
+    --bg-secondary-color: #2f1c6a;
+    --text-color: #ffff;
+    --pink-color: #fc5185;
+    --pink-color-hover: #d63163;
+    --principal-font-family: "DM Sans", sans-serif;
+    --section-gap: 32px;
+}

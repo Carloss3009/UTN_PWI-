@@ -1,0 +1,7 @@
+.btn-chatbot:hover{
+    background-color: var(--hostinger-color-hover);
+}
+
+.chatbot .chatbot-header .chatbot-header-icons div:hover{
+    background-color: var(--color-background-chat-hover);
+}

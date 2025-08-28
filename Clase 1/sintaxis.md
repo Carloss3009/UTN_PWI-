@@ -5,7 +5,7 @@ HTML: El lenguaje en el que se escribe la estructura de la web.
 Las páginas web están compuestas de elementos, ej: button para hacer botones o form para hacer formularios
 Los elementos se expresan en "Etiquetas"
 
-### ETIQUETAS:7
+### ETIQUETAS:
 
 # Que abren y cierran:
 

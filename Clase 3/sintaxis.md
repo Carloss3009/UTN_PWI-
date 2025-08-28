@@ -10,7 +10,7 @@ ALT + Z = word wrap
 
 <padre>
     <hijos>
-        <nieto></nieto>
+        <!-- <nieto></nieto> -->
     </hijos>
     <hermano></hermano>
 </padre>
